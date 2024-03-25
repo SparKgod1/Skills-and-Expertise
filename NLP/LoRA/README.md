@@ -222,7 +222,8 @@ model = PeftModel.from_pretrained(
 model = model.merge_and_unload()
 model.save_pretrained('/content/drive/MyDrive/_1')
 ```
-
+微调模型+tokenizer链接：
+https://drive.google.com/drive/folders/1-00jZNGVXnjlwiS5lLYAST_SwiBZHcRZ?usp=drive_link
 #### 加载训练好的模型
 ```
 model_finetuned = AutoModelForCausalLM.from_pretrained(
